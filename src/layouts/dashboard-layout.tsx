@@ -16,11 +16,11 @@ const DashboardLayout = () => {
                             </div>
                             <ul className='text-white my-4'>
                                 
-                                <li className='px-6 py-3 hover:bg-blue-200 mx-2 rounded text-sm'><Link to="/dashboard">Dashboard</Link></li>
-                                <li className='px-6 py-3 hover:bg-blue-200 mx-2 rounded text-sm'><Link to="/dashboard/sub-account">Sub Account</Link></li>
-                                <li className='px-6 py-3 hover:bg-blue-200 mx-2 rounded text-sm'><Link to="/dashboard/broadcast">Broadcast</Link></li>
-                                <li className='px-6 py-3 hover:bg-blue-200 mx-2 rounded text-sm'><Link to="/dashboard/webmail">Webmail</Link></li>
-                                <li className='px-6 py-3 hover:bg-blue-200 mx-2 rounded text-sm'><Link to="/dashboard/mailbox-config">Mailbox Configuration</Link></li>
+                                <li className='px-6 py-3 hover:bg-blue-200 mx-2 rounded text-sm'><Link to="/">Dashboard</Link></li>
+                                <li className='px-6 py-3 hover:bg-blue-200 mx-2 rounded text-sm'><Link to="/sub-account">Sub Account</Link></li>
+                                <li className='px-6 py-3 hover:bg-blue-200 mx-2 rounded text-sm'><Link to="/broadcast">Broadcast</Link></li>
+                                <li className='px-6 py-3 hover:bg-blue-200 mx-2 rounded text-sm'><Link to="/webmail">Webmail</Link></li>
+                                <li className='px-6 py-3 hover:bg-blue-200 mx-2 rounded text-sm'><Link to="/mailbox-config">Mailbox Configuration</Link></li>
                             </ul>
                         </div>
                         <main className="col-span-10 bg-blue-200">
