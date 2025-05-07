@@ -7,7 +7,7 @@ const DashboardLayout = () => {
             <div>
                 <div className='max-w-[1280px] mx-auto'>
                     <div className='grid grid-cols-12'>
-                        <div className='col-span-2 bg-[#0c2556] h-screen'>
+                        <div className='col-span-2 bg-[#0c2556] h-screen sticky top-0'>
                             <div className='flex justify-center'>
                             <img src={email_kerja} className='w-1/2 my-4'/>
                             </div>
